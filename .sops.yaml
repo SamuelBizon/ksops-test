@@ -1,3 +1,6 @@
 creation_rules:
   - unencrypted_regex: '^(apiVersion|metadata|kind|type)$'
-    age: 'age1qdh2vdjjxhxlnlrmpgeps8wueut49ccw0fsxyslf8lsvecv0psrs8ph53k'
+    azure_keyvault: 'https://argocd-sops123123.vault.azure.net/keys/argo-sops-key/19ece3a94a474430b9db03bff89dd15f'
+#      - vault_url: 'https://argocd-sops123123.vault.azure.net'
+#        name: 'argo-sops-key'
+#        version: '19ece3a94a474430b9db03bff89dd15f'
