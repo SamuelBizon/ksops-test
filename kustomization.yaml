@@ -1,2 +1,5 @@
 generators:
   - ./ksops.yaml
+
+resources:
+  - ./secret2.yaml
